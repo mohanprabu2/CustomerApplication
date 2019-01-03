@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:id="@+id/payment"
+                android:text="Payment"
+                android:textSize="20sp"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="50dp"/>
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:id="@+id/pre_bal"
+                android:text="Pre-Balance"
+                android:textSize="20sp"
+                android:layout_marginTop="170dp"
+                android:layout_marginLeft="50dp"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:id="@+id/discount"
+                android:text="Discount"
+                android:textSize="20sp"
+                android:layout_marginTop="240dp"
+                android:layout_marginLeft="50dp"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:id="@+id/type"
+                android:text="Type"
+                android:textSize="20sp"
+                android:layout_marginTop="310dp"
+                android:layout_marginLeft="50dp"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:id="@+id/payid"
+                android:hint="Amount"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="175dp"
+                />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:id="@+id/balid"
+                android:hint="Amount"
+                android:layout_marginTop="170dp"
+                android:layout_marginLeft="175dp"
+                />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:id="@+id/disid"
+                android:hint="Discount"
+                android:layout_marginTop="240dp"
+                android:layout_marginLeft="175dp"
+                />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="170dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="310dp"
+                android:entries="@array/android_dropdown_arrays" />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/cancel"
+                android:text="Cancel"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="20dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/Pay_button"
+                android:text="Pay"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="150dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:id="@+id/history_button"
+                android:text="History"
+                android:layout_marginTop="400dp"
+                android:layout_marginLeft="270dp"
+                />
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
