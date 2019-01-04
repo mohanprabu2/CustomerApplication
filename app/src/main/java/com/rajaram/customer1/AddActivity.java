@@ -25,12 +25,6 @@ public class AddActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        Bundle bundle =  getIntent().getExtras();
-        if(bundle != null);{
-            if(bundle.getString("Adding Customer") != null){
-                Toast.makeText(getApplicationContext(),"Data:" + bundle.getString("Adding Customer"),Toast.LENGTH_SHORT).show();
-            }
-        }
         button = (Button) findViewById(R.id.cancel_button);
         button.setOnClickListener(new View.OnClickListener() {
 

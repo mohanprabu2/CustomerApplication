@@ -143,12 +143,9 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_add) {
-
-            Fragment fragment = new AddCusFragment();
-            getSupportActionBar().setTitle("Add Customer");
-            FragmentManager manager = getSupportFragmentManager();
-            manager.beginTransaction().replace(R.id.main_content,fragment,fragment.getTag()).commit();
-        }
+            Intent i = new Intent(MainActivity.this,AddActivity.class);
+            startActivity(i);
+            }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

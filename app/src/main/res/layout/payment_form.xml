@@ -7,6 +7,15 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:id="@+id/cusname"
+                android:text=""
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="50dp"
+                />
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="40dp"
@@ -42,6 +51,13 @@
             <EditText
                 android:layout_width="200dp"
                 android:layout_height="40dp"
+                android:id="@+id/cusnameid"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="175dp"
+                />
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="40dp"
                 android:id="@+id/payid"
                 android:hint="Amount"
                 android:layout_marginTop="100dp"
@@ -59,7 +75,7 @@
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:id="@+id/disid"
-                android:hint="Discount"
+                android:hint="   0%  "
                 android:layout_marginTop="240dp"
                 android:layout_marginLeft="175dp"
                 />
